@@ -1,0 +1,22 @@
+# Cargo build artifacts
+/target/
+**/target/
+
+# Cargo lockfile only ignored for libraries; keep for binaries
+# (delete the next line if this becomes a library crate)
+# Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# MSVC Windows debug info
+*.pdb
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
